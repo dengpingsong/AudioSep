@@ -9,4 +9,5 @@ def merge_file(output_path, part_prefix):
     print("✅ 合并完成：", output_path)
 
 # 使用示例
-merge_file("checkpoint/music_speech_audioset_epoch_15_esc_89.98.zip", "checkpoint/music_speech_audioset_epoch_15_esc_89.98.zip.part_")
+merge_file("checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt", "checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_")
+merge_file("checkpoint/audiosep_base_4M_steps.ckpt", "checkpoint/audiosep_base_4M_steps.ckpt.part_")

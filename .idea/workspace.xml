@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f2a698-0988-41d3-aae2-23d5f9f3b07c" name="更改" comment="lfs">
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_008" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_009" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_010" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_011" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_012" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_013" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_014" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_015" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_016" afterDir="false" />
@@ -25,7 +16,6 @@
       <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_022" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_023" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_024" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/merge.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_000" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_001" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_002" afterDir="false" />
@@ -70,10 +60,6 @@
       <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_041" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_042" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_044" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/spilt.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint/spilt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +192,7 @@
       <workItem from="1744735748337" duration="36000" />
       <workItem from="1744797846135" duration="2506000" />
       <workItem from="1744807835068" duration="9282000" />
-      <workItem from="1744822230679" duration="129000" />
+      <workItem from="1744822230679" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="ee">
       <option name="closed" value="true" />
@@ -368,7 +354,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744822291672</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744822400391</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744822400391</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744822553499</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744822553499</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
