@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f2a698-0988-41d3-aae2-23d5f9f3b07c" name="更改" comment="lfs">
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/spilt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -137,7 +139,7 @@
       <workItem from="1744716209672" duration="2151000" />
       <workItem from="1744735748337" duration="36000" />
       <workItem from="1744797846135" duration="2506000" />
-      <workItem from="1744807835068" duration="7121000" />
+      <workItem from="1744807835068" duration="7381000" />
     </task>
     <task id="LOCAL-00001" summary="ee">
       <option name="closed" value="true" />
@@ -251,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744816396387</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744820187144</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744820187144</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744820250814</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744820250814</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
