@@ -158,5 +158,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
 checkpoint/audiosep_base_4M_steps.ckpt
 checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt
