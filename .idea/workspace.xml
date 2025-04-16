@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4f2a698-0988-41d3-aae2-23d5f9f3b07c" name="更改" comment="完成给定标签组后分离的任务&#10;TODO：接入api识别音频成分" />
+    <list default="true" id="a4f2a698-0988-41d3-aae2-23d5f9f3b07c" name="更改" comment="lfs">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/dengpingsong/AudioSep.git&quot;,
-    &quot;accountId&quot;: &quot;5c7cc519-352b-42d2-8587-104a7b0b28a3&quot;
+    &quot;accountId&quot;: &quot;3f11b182-8617-4529-9c96-cfcea2d918b1&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -51,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.Infer.executor": "Run",
     "Python.pipeline.executor": "Run",
@@ -60,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/chatg/PycharmProjects/AudioSep",
+    "last_opened_file_path": "/Users/apple/PycharmProjects/AudioSep",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +74,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="python pipeline.py --audio_file &quot;ESC-50-master/audio/1-19898-C-41.wav&quot; --text &quot;chainsaw dog&quot; --output_file &quot;separated_audio.wav&quot;" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AudioSep" />
@@ -109,6 +118,10 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="a4f2a698-0988-41d3-aae2-23d5f9f3b07c" name="更改" comment="" />
@@ -123,6 +136,8 @@
       <workItem from="1744714763302" duration="1422000" />
       <workItem from="1744716209672" duration="2151000" />
       <workItem from="1744735748337" duration="36000" />
+      <workItem from="1744797846135" duration="2506000" />
+      <workItem from="1744807835068" duration="7121000" />
     </task>
     <task id="LOCAL-00001" summary="ee">
       <option name="closed" value="true" />
@@ -212,7 +227,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744735451777</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完成给定标签组后分离的任务&#10;TODO：接入api识别音频成分">
+      <option name="closed" value="true" />
+      <created>1744808870612</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744808870612</updated>
+    </task>
+    <task id="LOCAL-00013" summary="完成给定标签组后分离的任务&#10;TODO：接入api识别音频成分">
+      <option name="closed" value="true" />
+      <created>1744809788066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744809788066</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744816396387</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744816396387</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,8 +261,10 @@
     <MESSAGE value="ee" />
     <MESSAGE value="data" />
     <MESSAGE value="env setting update" />
+    <MESSAGE value="W" />
     <MESSAGE value="完成给定标签组后分离的任务&#10;TODO：接入api识别音频成分" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成给定标签组后分离的任务&#10;TODO：接入api识别音频成分" />
+    <MESSAGE value="lfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="lfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,10 +282,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AudioSep$tmp.coverage" NAME="tmp 覆盖结果" MODIFIED="1744632939860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ESC-50-master/meta" />
+    <SUITE FILE_PATH="coverage/AudioSep$python_pipeline_py___audio_file__ESC_50_master_audio_1_19898_C_41_wav____text__chainsaw_dog____output_file__separated_audio_wav_.coverage" NAME="python pipeline.py --audio_file &quot;ESC-50-master/audio/1-19898-C-41.wav&quot; --text &quot;chainsaw dog&quot; --output_file &quot;separated_audio.wav&quot; 覆盖结果" MODIFIED="1744778893949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AudioSep$web_demo_audio.coverage" NAME="web_demo_audio 覆盖结果" MODIFIED="1744647917068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qwen2-Audio-main/demo" />
     <SUITE FILE_PATH="coverage/AudioSep$pipeline.coverage" NAME="pipeline 覆盖结果" MODIFIED="1744643054575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AudioSep$tmp.coverage" NAME="tmp 覆盖结果" MODIFIED="1744632939860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ESC-50-master/meta" />
-    <SUITE FILE_PATH="coverage/AudioSep$python_pipeline_py___audio_file__ESC_50_master_audio_1_19898_C_41_wav____text__chainsaw_dog____output_file__separated_audio_wav_.coverage" NAME="python pipeline.py --audio_file &quot;ESC-50-master/audio/1-19898-C-41.wav&quot; --text &quot;chainsaw dog&quot; --output_file &quot;separated_audio.wav&quot; 覆盖结果" MODIFIED="1744716334546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AudioSep$Infer.coverage" NAME="Infer 覆盖结果" MODIFIED="1744632361061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

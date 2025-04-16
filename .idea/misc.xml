@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="PythonProject1" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="AudioSep" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="AudioSep-M1-MPS" project-jdk-type="Python SDK" />
 </project>
