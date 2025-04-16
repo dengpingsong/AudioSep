@@ -5,10 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f2a698-0988-41d3-aae2-23d5f9f3b07c" name="更改" comment="lfs">
-      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint/spilt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_023" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/audiosep_base_4M_steps.ckpt.part_024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_023" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_025" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_027" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_031" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_033" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_035" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_039" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_041" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_043" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt.part_044" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/spilt.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint/spilt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +119,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.Infer.executor": "Run",
-    "Python.pipeline.executor": "Run",
-    "Python.python pipeline.py --audio_file \"ESC-50-master/audio/1-19898-C-41.wav\" --text \"chainsaw dog\" --output_file \"separated_audio.wav\".executor": "Run",
-    "Python.tmp.executor": "Run",
-    "Python.web_demo_audio.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/apple/PycharmProjects/AudioSep",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Infer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pipeline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python pipeline.py --audio_file \&quot;ESC-50-master/audio/1-19898-C-41.wav\&quot; --text \&quot;chainsaw dog\&quot; --output_file \&quot;separated_audio.wav\&quot;.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spilt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tmp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_demo_audio.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/apple/PycharmProjects/AudioSep&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -139,7 +205,8 @@
       <workItem from="1744716209672" duration="2151000" />
       <workItem from="1744735748337" duration="36000" />
       <workItem from="1744797846135" duration="2506000" />
-      <workItem from="1744807835068" duration="7381000" />
+      <workItem from="1744807835068" duration="9282000" />
+      <workItem from="1744822230679" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="ee">
       <option name="closed" value="true" />
@@ -269,7 +336,39 @@
       <option name="project" value="LOCAL" />
       <updated>1744820250814</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744820379873</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744820379873</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744820766960</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744820766960</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744822126377</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1744822126377</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lfs">
+      <option name="closed" value="true" />
+      <created>1744822291672</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1744822291672</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,9 +400,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AudioSep$tmp.coverage" NAME="tmp 覆盖结果" MODIFIED="1744632939860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ESC-50-master/meta" />
-    <SUITE FILE_PATH="coverage/AudioSep$python_pipeline_py___audio_file__ESC_50_master_audio_1_19898_C_41_wav____text__chainsaw_dog____output_file__separated_audio_wav_.coverage" NAME="python pipeline.py --audio_file &quot;ESC-50-master/audio/1-19898-C-41.wav&quot; --text &quot;chainsaw dog&quot; --output_file &quot;separated_audio.wav&quot; 覆盖结果" MODIFIED="1744778893949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AudioSep$python_pipeline_py___audio_file__ESC_50_master_audio_1_19898_C_41_wav____text__chainsaw_dog____output_file__separated_audio_wav_.coverage" NAME="python pipeline.py --audio_file &quot;ESC-50-master/audio/1-19898-C-41.wav&quot; --text &quot;chainsaw dog&quot; --output_file &quot;separated_audio.wav&quot; 覆盖结果" MODIFIED="1744820340151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AudioSep$web_demo_audio.coverage" NAME="web_demo_audio 覆盖结果" MODIFIED="1744647917068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qwen2-Audio-main/demo" />
     <SUITE FILE_PATH="coverage/AudioSep$pipeline.coverage" NAME="pipeline 覆盖结果" MODIFIED="1744643054575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AudioSep$spilt.coverage" NAME="spilt 覆盖结果" MODIFIED="1744820504619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/checkpoint" />
     <SUITE FILE_PATH="coverage/AudioSep$Infer.coverage" NAME="Infer 覆盖结果" MODIFIED="1744632361061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
