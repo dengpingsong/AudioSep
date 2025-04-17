@@ -8,7 +8,72 @@ from utils import ignore_warnings, parse_yaml, load_ss_model
 from models.clap_encoder import CLAP_Encoder
 import argparse
 import os
+import json
 
+
+
+def parse_music_tags(json_str):
+    """解析音乐标签JSON字符串，返回可用于分离的标签列表"""
+    try:
+        # 解析JSON字符串
+        music_info = json.loads(json_str)
+
+        tags = []
+
+        # 提取并处理音乐风格标签（以逗号分隔）
+        if "music_genre" in music_info:
+            genres = [genre.strip() for genre in music_info["music_genre"].split(",")]
+            tags.extend(genres)
+
+        # 提取并处理乐器标签
+        if "instruments" in music_info:
+            instruments = [inst.strip() for inst in music_info["instruments"].split(",")]
+            tags.extend(instruments)
+
+        # 添加其他可能有用的特征作为标签
+        if "key" in music_info:
+            tags.append(music_info["key"].strip())
+
+        return tags
+
+    except json.JSONDecodeError:
+        print("无效的JSON格式")
+        return []
+
+
+# 使用示例
+json_str = '{"music_genre": "rock, classic rock, indie rock, garage rock", "instruments": "guitar, bass, drums, voice", "key": "A minor", "time_signature": "4/4", "tempo": "62.517 bpm"}'
+tags = parse_music_tags(json_str)
+print(f"提取的标签: {tags}")
+
+# 修改主程序中的标签处理部分
+if __name__ == '__main__':
+    # ... 原有的代码 ...
+
+    # 将JSON风格信息转换为标签列表
+    if args.text.startswith('{'):
+        # 输入是JSON格式
+        text_tags = parse_music_tags(args.text)
+    else:
+        # 输入是空格分隔的标签
+        text_tags = args.text.split()
+
+    print(f'分离音频的标签: {text_tags}')
+
+    # 为每个标签创建对应的子目录
+    for tag in text_tags:
+        tag_dir = os.path.join(args.output_dir, tag)
+        os.makedirs(tag_dir, exist_ok=True)
+
+    # 使用提取的标签进行音频分离
+    separate_audio(
+        model=model,
+        audio_file=args.audio_file,
+        text_tags=text_tags,
+        output_dir=args.output_dir,
+        device=device,
+        use_chunk=args.use_chunk
+    )
 
 def build_audiosep(config_yaml, checkpoint_path, device):
     ignore_warnings()
@@ -78,6 +143,7 @@ if __name__ == '__main__':
     parser.add_argument('--checkpoint_path', type=str, default='checkpoint/audiosep_base_4M_steps.ckpt',
                         help='Path to the model checkpoint')
     parser.add_argument('--use_chunk', action='store_true', help='Use chunk inference')
+    parser.add_argument('--prompt',  type=str, help='Use original music prompt')
 
     args = parser.parse_args()
     device = torch.device(args.device if torch.cuda.is_available() else 'cpu')
@@ -87,16 +153,36 @@ if __name__ == '__main__':
         checkpoint_path=args.checkpoint_path,
         device=device)
 
-    # 将文本参数按空格分割成标签列表
-    text_tags = args.text.split()
-    print(f'Separating audio for tags: {text_tags}')
 
     # 正确地只调用一次separate_audio，传入所有标签
-    separate_audio(
-        model=model,
-        audio_file=args.audio_file,
-        text_tags=text_tags,
-        output_dir=args.output_dir,
-        device=device,
-        use_chunk=args.use_chunk
-    )
+    if args.prompt:
+        text_tags =[]
+        text_tags.append(args.prompt)
+
+        separate_audio(
+            model=model,
+            audio_file=args.audio_file,
+            text_tags=text_tags,
+            output_dir=args.output_dir,
+            device=device,
+            use_chunk=args.use_chunk
+        )
+    else:
+        # 将文本参数按空格分割成标签列表
+        # 将JSON风格信息转换为标签列表
+        if args.text.startswith('{'):
+            # 输入是JSON格式
+            text_tags = parse_music_tags(args.text)
+        else:
+            # 输入是空格分隔的标签
+            text_tags = args.text.split()
+
+        print(f'分离音频的标签: {text_tags}')
+        separate_audio(
+            model=model,
+            audio_file=args.audio_file,
+            text_tags=text_tags,
+            output_dir=args.output_dir,
+            device=device,
+            use_chunk=args.use_chunk
+        )
